@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>React + Typescript Demos</title>
+    <link rel="stylesheet" href="content/css/bootstrap.min.css" type="text/css">
+  <!-- link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css" -->
+  <style>
+    .btn-slider {
+      border-width: 2px;
+      background-color: rgb(239, 239, 239);
+    }
+    body {
+      overflow-y: overlay;
+    }
+  </style>
+  <!-- overflow-y set to overlay in order to prevent layout thrashing. Unsupported in firefox, so it would be nice to find a way to mitigate that-->
+  </head>
+  <body>
+    <div class="container-fluid" style="background-color: black; color: white; padding: 1rem; ">
+      <h1>Components</h1>
+      <h5>Built on Bootstrap</h5>
+    </div>
+    <div id="app"></div>
+    <script src="./react/react.development.js" type="text/javascript"></script>
+    <script src="./react/react-dom.development.js" type="text/javascript"></script>
+    <script src="./bundle.js" type="text/javascript"></script>
+  </body>
+</html>
